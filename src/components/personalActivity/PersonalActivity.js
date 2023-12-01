@@ -26,7 +26,7 @@ const PersonalActivity = () => {
                 <Image src={loveemo} alt="" />
               </span>
               reaction on
-              <span className="action_on"> Destroy Dex</span>'s
+              <span className="action_on"> Destroy Dex</span>&#39;s
               <span className="status_update"> status update</span>
             </h6>
             <h6 className="minutesago">3 minutes ago</h6>
@@ -58,7 +58,7 @@ const PersonalActivity = () => {
                 <Image src={happyemo} alt="" />
               </span>
               reaction on
-              <span className="action_on"> Neko Bebop</span>'s
+              <span className="action_on"> Neko Bebop</span>&#39;s
               <span className="status_update"> status update</span>
             </h6>
             <h6 className="minutesago">3 minutes ago</h6>
@@ -72,7 +72,7 @@ const PersonalActivity = () => {
             <h6 className="personal_activity">
               <span className="user_name_personal">Marina Valentine </span>{" "}
               commented on
-              <span className="action_on"> Sarah Diamond</span>'s
+              <span className="action_on"> Sarah Diamond</span>&#39;s
               <span className="status_update"> Photo</span>
             </h6>
             <h6 className="minutesago">3 minutes ago</h6>
@@ -100,7 +100,8 @@ const PersonalActivity = () => {
           <div className="right_side_comments">
             <h6 className="personal_activity">
               <span className="user_name_personal">Marina Valentine </span>{" "}
-              Replied to a<span className="action_on"> Damian Greyson</span>'s
+              Replied to a<span className="action_on"> Damian Greyson</span>
+              &#39;s
               <span className="status_update"> comment</span>
             </h6>
             <h6 className="minutesago">1 hour ago</h6>
@@ -114,7 +115,7 @@ const PersonalActivity = () => {
             <h6 className="personal_activity">
               <span className="user_name_personal">Marina Valentine </span>{" "}
               shared
-              <span className="action_on"> Destroy Dex</span>'s
+              <span className="action_on"> Destroy Dex</span>&#39;s
               <span className="status_update"> status update</span>
             </h6>
             <h6 className="minutesago">4 hours ago</h6>
@@ -132,7 +133,7 @@ const PersonalActivity = () => {
                 <Image src={wowemo} alt="" />
               </span>
               reaction on
-              <span className="action_on"> Destroy Dex</span>'s
+              <span className="action_on"> Destroy Dex</span>&#39;s
               <span className="status_update"> status update</span>
             </h6>
             <h6 className="minutesago">2 days ago</h6>
@@ -164,7 +165,7 @@ const PersonalActivity = () => {
                 <Image src={like} alt="" />
               </span>
               reaction on
-              <span className="action_on"> Nick Grissom</span>'s
+              <span className="action_on"> Nick Grissom</span>&#39;s
               <span className="status_update"> status update</span>
             </h6>
             <h6 className="minutesago">3 minutes ago</h6>
@@ -183,7 +184,7 @@ const PersonalActivity = () => {
                 <Image src={funny} alt="" />
               </span>
               reaction on
-              <span className="action_on"> Bearded Wonde</span>'s
+              <span className="action_on"> Bearded Wonde</span>&#39;s
               <span className="status_update"> status update</span>
             </h6>
             <h6 className="minutesago">2 weeks ago</h6>
