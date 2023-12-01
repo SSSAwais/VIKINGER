@@ -88,7 +88,7 @@ const PersonalActivity = () => {
               <span className="user_name_personal">Marina Valentine </span>{" "}
               posted a new
               <span className="action_on"> status update</span>
-              "Hi to all Remember"
+              &#34;Hi to all Remember&#34;
             </h6>
             <h6 className="minutesago">3 minutes ago</h6>
           </div>

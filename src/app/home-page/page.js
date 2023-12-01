@@ -335,7 +335,7 @@ const HomePage = () => {
                 </div>
                 <div className={style.content_user_popular}>
                   <p className={style.detailusers}>
-                    Tomorow I'll be livestreaming along with{" "}
+                    Tomorow I&#39;ll be livestreaming along with{" "}
                     <span> @DestroyDex</span> on my Youtube channel. We are
                     gonna do a spedrun of Super Mochi Bros 3!
                   </p>
@@ -395,7 +395,9 @@ const HomePage = () => {
             </div>
             <div className="col-lg-6">
               <div className={style.personal_activity}>
-                <p className={style.perosnalAcitivtyHeading}>Personal Activity</p>
+                <p className={style.perosnalAcitivtyHeading}>
+                  Personal Activity
+                </p>
                 <div>
                   <PersonalActivity />
                 </div>
