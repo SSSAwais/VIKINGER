@@ -1,0 +1,63 @@
+<svg id="Small_Profile_Info_" data-name="Small Profile Info " xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44.5" height="47" viewBox="0 0 44.5 47">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke-width: 3px;
+      }
+
+      .cls-1 {
+        stroke: #45437f;
+        opacity: 0.12;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        stroke: #615dfa;
+        filter: url(#filter);
+      }
+
+      .cls-3 {
+        fill: #615dfa;
+      }
+
+      .cls-4, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        fill: #45437f;
+      }
+
+      .cls-6 {
+        font-size: 31.27px;
+        text-anchor: middle;
+        font-family: Rajdhani;
+        font-weight: 700;
+      }
+    </style>
+    <filter id="filter" x="140" y="1611" width="40" height="44" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="140" y="1611" width="40" height="44" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNDAiIGhlaWdodD0iNDQiIHZpZXdCb3g9IjAgMCA0MCA0NCI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogdXJsKCNsaW5lYXItZ3JhZGllbnQpOwogICAgICB9CiAgICA8L3N0eWxlPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHkxPSIyMiIgeDI9IjQwIiB5Mj0iMjIiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjNDFlZmZmIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzYxNWRmYSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iNDAiIGhlaWdodD0iNDQiLz4KPC9zdmc+Cg=="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Experience_Bar" data-name="Experience Bar">
+    <path id="Empty_" data-name="Empty " class="cls-1" d="M180,1642.07a4.336,4.336,0,0,1-2,3.41l-15.95,9.04a4.584,4.584,0,0,1-4.054,0l-15.961-9.04a4.368,4.368,0,0,1-2.027-3.41v-18.14a4.369,4.369,0,0,1,2.031-3.42L158,1611.47a4.6,4.6,0,0,1,4.06,0l15.938,9.04a4.339,4.339,0,0,1,2,3.42v18.14Z" transform="translate(-138.5 -1609.5)"/>
+    <g transform="translate(-138.5 -1609.5)" style="fill: none; filter: url(#filter)">
+      <path id="Filled" class="cls-2" d="M180,1642.07a4.336,4.336,0,0,1-2,3.41l-15.95,9.04a4.584,4.584,0,0,1-4.054,0l-15.961-9.04a4.368,4.368,0,0,1-2.027-3.41v-18.14a4.369,4.369,0,0,1,2.031-3.42L158,1611.47a4.6,4.6,0,0,1,4.06,0l15.938,9.04a4.339,4.339,0,0,1,2,3.42v18.14Z" style="stroke: inherit; filter: none; fill: inherit"/>
+    </g>
+    <use transform="translate(-138.5 -1609.5)" xlink:href="#Filled" style="stroke: #615dfa; filter: none; fill: none"/>
+  </g>
+  <g id="Profile_Avatar" data-name="Profile Avatar">
+    <path id="Base" class="cls-3" d="M175.008,1639.6a3.143,3.143,0,0,1-1.505,2.48l-11.97,6.58a3.528,3.528,0,0,1-3.043,0l-11.977-6.58a3.164,3.164,0,0,1-1.521-2.48v-13.2a3.168,3.168,0,0,1,1.523-2.49l11.98-6.57a3.536,3.536,0,0,1,3.047,0l11.961,6.57a3.146,3.146,0,0,1,1.505,2.49v13.2Z" transform="translate(-138.5 -1609.5)"/>
+  </g>
+  <g id="Profile_Level" data-name="Profile Level">
+    <path id="Base_Detail" data-name="Base Detail" class="cls-4" d="M183,1648.92a2.384,2.384,0,0,1-1.1,1.87l-8.772,4.92a2.5,2.5,0,0,1-2.23,0l-8.779-4.92a2.4,2.4,0,0,1-1.115-1.87v-9.88a2.4,2.4,0,0,1,1.117-1.87l8.78-4.92a2.506,2.506,0,0,1,2.233,0l8.766,4.92a2.384,2.384,0,0,1,1.1,1.87v9.88Z" transform="translate(-138.5 -1609.5)"/>
+    <path id="Base-2" data-name="Base" class="cls-5" d="M180,1647.71a1.79,1.79,0,0,1-.8,1.4l-6.38,3.69a1.784,1.784,0,0,1-1.622,0l-6.384-3.69a1.8,1.8,0,0,1-.811-1.4v-7.42a1.8,1.8,0,0,1,.812-1.4l6.386-3.7a1.788,1.788,0,0,1,1.624,0l6.375,3.7a1.79,1.79,0,0,1,.8,1.4v7.42Z" transform="translate(-138.5 -1609.5)"/>
+    <text id="_24" data-name="24" class="cls-6" transform="translate(33.544 37.1) scale(0.304 0.32)">24</text>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="8" viewBox="0 0 28 8">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 12px;
+        fill: #fff;
+        font-family: Rajdhani;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text id="Home" class="cls-1" x="-0.334" y="8.333">Home</text>
+</svg>

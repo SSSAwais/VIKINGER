@@ -1,0 +1,29 @@
+.comments_wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 35px;
+}
+.reaction_time {
+  margin-left: 12px;
+}
+.reaction_time h6 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 14px;
+  margin-bottom: 0px;
+  color: #3d405c;
+}
+.reaction_time .name {
+  font-weight: 700;
+}
+.reaction_time .highlight {
+  color: #00c7d7;
+  font-weight: 600;
+}
+.reaction_time .time {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #9192a5;
+  margin-top: 4px;
+  margin-bottom: 0px;
+}

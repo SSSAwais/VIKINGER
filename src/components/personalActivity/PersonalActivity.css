@@ -1,0 +1,53 @@
+.personal_activity {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #3d405c;
+  margin-bottom: 0px;
+}
+.user_name_personal {
+  font-weight: 700;
+}
+.action_on,
+.status_update {
+  color: #00c7d7;
+  font-weight: 700;
+}
+.emo_icon img {
+  width: 20px;
+  height: 20px;
+  margin: 0px 5px;
+}
+.minutesago {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  color: #9192a5;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 4px;
+}
+.commenting_wrappier {
+  padding: 0 28px;
+  height: 625px;
+  overflow: hidden auto;
+}
+.single_comments {
+  margin-bottom: 22px;
+}
+.single_comments {
+  display: flex;
+}
+.right_side_comments {
+  margin-left: 8px;
+}
+.commenting_wrappier::-webkit-scrollbar {
+  width: 2px;
+}
+
+.commenting_wrappier::-webkit-scrollbar-thumb {
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid #afb0bf; /* creates padding around scroll thumb */
+}

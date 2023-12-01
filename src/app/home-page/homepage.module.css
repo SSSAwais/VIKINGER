@@ -1,0 +1,469 @@
+.bannerAraa {
+  padding-top: 20px;
+  position: relative;
+}
+.banner_content {
+  position: absolute;
+  top: 80px;
+  left: 200px;
+  text-align: start;
+}
+.banner_content h4 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 36px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0px;
+}
+.banner_content p {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 0px;
+  font-weight: 500;
+  padding-top: 18px;
+}
+.profile_section {
+  padding-top: 60px;
+  padding-bottom: 26px;
+}
+.profile_section h5 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  color: #9192a5;
+}
+.profile_section p {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: #3d405c;
+  margin-bottom: 0px;
+}
+.name_n_greeting {
+  background-image: url("../../assets/images/Top.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 160px;
+}
+.name_n_greeting h5 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  padding-top: 40px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.name_n_greeting p {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0px;
+  color: #fff;
+  text-align: center;
+}
+.third_section {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.welcome_back {
+  background-color: #fff;
+}
+.lower_content_profile {
+  text-align: center;
+  margin: -60px auto 0;
+}
+.left_profile_side,
+.right_profile_side {
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+.first_profife_detail .totalcommentss {
+  font-family: "Rajdhani", sans-serif;
+
+  font-size: 22px;
+  font-weight: 700;
+  color: #3d405c;
+  margin-bottom: 0px;
+}
+.first_profife_detail h6 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #3d405c;
+  margin-bottom: 0px;
+}
+.avgMonth {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #9aa4bf;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+.main_prfoile_gretting {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+.left_profile_side img,
+.right_profile_side img {
+  padding-bottom: 20px;
+}
+.left_profile_side::after {
+  content: "";
+  width: 1px;
+  height: 40px;
+  background-color: #aeb0bf;
+  position: absolute;
+  top: 67px;
+  right: 0;
+}
+.charts_section {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.left_post_chart_side,
+.right_comment_chart_side {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+.left_post_chart_side::after {
+  content: "";
+  width: 1px;
+  height: 40px;
+  background-color: #aeb0bf;
+  position: absolute;
+  top: 52px;
+  right: 0;
+}
+.post_shared h5,
+.post_engagment h5 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #3d405c;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+.post_shared p,
+.post_engagment p {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 0px;
+  color: #aeb0bf;
+  text-transform: uppercase;
+  margin-top: 6px;
+}
+.profile_activity_wrapper {
+  background-color: #ffffff;
+  padding: 30px 0px 0;
+  width: 66%;
+  border-radius: 12px;
+  margin-top: 16px;
+}
+.porfile_activity_content h4 {
+  font-family: "Rajdhani", sans-serif;
+  color: #3d405c;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0px;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+.acitivy___ {
+  height: 382px;
+  overflow: hidden scroll;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+.acitivy___::-webkit-scrollbar {
+  width: 2px;
+}
+.acitivy___::-webkit-scrollbar-thumb {
+  background-color: #afb0bf;
+}
+.post_engagment_in_chart,
+.profile_views {
+  background-image: url("../../assets/images/firstchart.png");
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: contain;
+  background-position: bottom;
+  height: 215px;
+  border-radius: 12px;
+}
+.profile_views {
+  background-image: url("../../assets/images/secondchart.png");
+  margin-top: 16px;
+}
+.main_wrap_activity_bars {
+  display: flex;
+  justify-content: space-between;
+}
+.activity_chart {
+  padding-top: 16px;
+  width: 31%;
+}
+.totalpost {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 48px;
+  color: #3d405c;
+  font-weight: 700;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.engagment {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.todayyy {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 0px;
+  color: #aeb0bf;
+  text-align: center;
+}
+.post_totlasss {
+  padding-top: 0px;
+}
+.increment,
+.posrt_tot {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 26px;
+  padding-top: 20px;
+}
+.increment i {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #4ff461;
+  border-radius: 50%;
+  font-size: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4ff461;
+}
+.posrt_tot i {
+  border-radius: 50%;
+  font-size: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  color: #ff5384;
+  border: 2px solid #ff5384;
+}
+.percent {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 4px;
+  color: #3d405c;
+}
+.topReactor_section {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.popular_top {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 28px;
+}
+.popular_post_wrapper {
+  padding-top: 24px;
+  border-radius: 12px;
+  background-color: white;
+}
+.name_timeeee {
+  margin-left: 8px;
+}
+.name_timeeee h4 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+}
+.name_timeeee p {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 500;
+  color: #3d405c;
+  margin-top: 4px;
+}
+.detailusers {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #3d405c;
+  margin-bottom: 0px;
+}
+.content_user_popular {
+  padding: 0 28px;
+}
+.detailusers {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  padding-top: 20px;
+  margin-bottom: 0px;
+}
+.detailusers span {
+  color: #00c7d7;
+}
+.youtube_section {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 3px 5px 40px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-top: 24px;
+}
+.youtube_section img {
+  width: 100%;
+}
+.youtube_detail {
+  padding: 22px 28px;
+}
+.youtube_detail h6 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 11px;
+  color: #afb0bf;
+  margin-bottom: 0px;
+}
+.youtube_detail h4 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  margin-bottom: 0px;
+  margin-top: 12px;
+  color: #3d405c;
+}
+.youtube_detail h4 span {
+  color: #00c7d7;
+}
+.youtube_detail p {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #9192a5;
+  margin-bottom: 0px;
+  margin-top: 2px;
+}
+.youtube_section a {
+  text-decoration: none;
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+.tags a {
+  font-family: "Rajdhani", sans-serif;
+  background-color: #7750f8;
+  transition: 0.2s ease-in-out;
+  display: block;
+  height: 24px;
+  padding: 0 12px;
+  border-radius: 200px;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 24px;
+  text-decoration: none;
+  margin: 0px 12px 0 0;
+}
+.reaction_participates_comments {
+  border-top: 1px solid #eaeaf4;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.emo_area img {
+  width: 20px;
+  height: 20px;
+}
+.emo_area {
+  position: relative;
+}
+.first_emo {
+  position: absolute;
+  z-index: 2;
+}
+.second_emo {
+  z-index: 1;
+  position: absolute;
+  left: 15px;
+}
+.third_emo {
+  position: absolute;
+  left: 32px;
+}
+.emo_area p {
+  padding-left: 60px;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 12px;
+  color: #3d405c;
+  margin-bottom: 0px;
+  padding-top: 5px;
+}
+.totalITems___ {
+  display: flex;
+  justify-content: space-between;
+}
+.sharecomments {
+  display: flex;
+}
+.sharecomments p {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 700;
+  margin-bottom: 0px;
+  transition: color 0.2s ease-in-out;
+  cursor: pointer;
+}
+.sharecomments p:hover {
+  color: #4ff461;
+}
+.commentsss {
+  margin-right: 12px;
+}
+.personal_activity {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+}
+.personal_activity p {
+  padding: 32px 28px 0;
+}
+.perosnalAcitivtyHeading {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  margin-bottom: 36px;
+  color: #3d405c;
+}

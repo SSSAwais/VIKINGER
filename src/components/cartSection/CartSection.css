@@ -1,0 +1,71 @@
+.cart_item_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.heading {
+  padding: 28px 28px 20px;
+  color: #fff;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+.items_prices {
+  padding-left: 15px;
+}
+.items_prices h4 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+.items_disp {
+  font-family: "Rajdhani", sans-serif;
+  margin-bottom: 0px;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 500;
+  color: #fff;
+}
+.totalitems {
+  font-family: "Rajdhani", sans-serif;
+  margin-bottom: 0px;
+  line-height: 14px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 16px;
+  font-size: 0.875rem;
+}
+.totalitems span {
+  color: #4ff461;
+  margin-right: 5px;
+}
+.buying_cart {
+  display: flex;
+  padding: 16px 28px;
+}
+/* .image_area {
+  max-width: 60px;
+  height: 60px !important;
+} */
+.image_area img {
+  width: 60px !important;
+  height: 60px !important;
+  object-fit: cover !important;
+  border-radius: 12px;
+}
+.image_area img:hover {
+  filter: none !important;
+}
+.cancel_icon {
+  padding-right: 28px;
+  padding-top: 15px;
+}
+.cancel_icon i {
+  color: #616a82;
+}
+.cancel_icon i:hover {
+  color: white;
+  cursor: pointer;
+}

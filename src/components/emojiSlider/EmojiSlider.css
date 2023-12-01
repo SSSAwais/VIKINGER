@@ -1,0 +1,45 @@
+.emoji_slider_bg {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 0px;
+}
+.emoji_slider_bg .slider-content- {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+.emoji_slider_bg .slider-content-::after {
+  content: "";
+  width: 1px;
+  height: 40px;
+  top: 25px;
+  background-color: #eaeaf4;
+  position: absolute;
+  right: 0;
+}
+.emoji_slider_bg .lastone::after {
+  content: "";
+  width: 1px;
+  height: 0px;
+  top: 25px;
+
+  position: absolute;
+  right: 0;
+  background-color: transparent;
+}
+.slider-content- .first_number {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #3d405c;
+  line-height: 22px;
+  padding-top: 16px;
+}
+.slider-content- .second_like {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #afb0bf;
+  padding-top: 8px;
+}

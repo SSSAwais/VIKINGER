@@ -1,0 +1,72 @@
+.greetig_slider_bg {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 0 48px;
+}
+
+.greetig_slider_bg .slick-next:before {
+  content: "" !important;
+  background-image: url("../../assets/images/right-arrow.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-size: cover;
+  color: black;
+  z-index: 1111;
+}
+.greetig_slider_bg .slick-prev:before {
+  content: "" !important;
+  background-image: url("../../assets/images/right-arrow.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-size: cover;
+  color: black;
+  z-index: 1111;
+  transform: rotate(180deg);
+}
+.greetig_slider_bg .slick-prev {
+  left: -45px !important;
+  top: 45px !important;
+}
+.slick-next {
+  right: -25px !important;
+  top: 42px !important;
+}
+.greetig_slider_bg .slick-next.slick-disabled:before,
+.greetig_slider_bg .slick-prev.slick-disabled:before {
+  opacity: 1 !important;
+}
+.greetig_slider_bg .slider-content- {
+  height: 100px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+  position: relative;
+}
+.greetig_slider_bg .slider-content- h5 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 0px;
+  color: #3d405c;
+}
+.greetig_slider_bg .slider-content- p {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 0px;
+  color: #afb0bf;
+}
+.greetig_slider_bg .slider-content-::after {
+  content: "";
+  width: 1px;
+  height: 20px;
+  background-color: #afb0bf;
+  position: absolute;
+  top: 40px;
+  left: 0;
+}

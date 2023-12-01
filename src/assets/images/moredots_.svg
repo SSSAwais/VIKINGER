@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="6" viewBox="0 0 22 6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #afb0c0;
+        fill-rule: evenodd;
+        opacity: 0.4;
+      }
+    </style>
+  </defs>
+  <path id="More..._Dots_" data-name="More... Dots " class="cls-1" d="M665,1627a3,3,0,1,1,3-3A3,3,0,0,1,665,1627Zm0-4a1,1,0,1,0,1,1A1,1,0,0,0,665,1623Zm-8,4a3,3,0,1,1,3-3A3,3,0,0,1,657,1627Zm0-4a1,1,0,1,0,1,1A1,1,0,0,0,657,1623Zm-8,4a3,3,0,1,1,3-3A3,3,0,0,1,649,1627Zm0-4a1,1,0,1,0,1,1A1,1,0,0,0,649,1623Z" transform="translate(-646 -1621)"/>
+</svg>

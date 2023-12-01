@@ -1,0 +1,30 @@
+footer {
+  height: 60px;
+  background-color: #615dfa;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+.footer_sec .bars {
+  width: 15%;
+  margin: 0 32px;
+}
+
+@media screen and (max-width: 768px) {
+  footer .last_icon {
+    padding-left: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .footer_sec .bars {
+    display: none;
+  }
+  footer .right_side_icons {
+    border: none;
+  }
+  footer .last_icon {
+    padding-left: 0px;
+  }
+}

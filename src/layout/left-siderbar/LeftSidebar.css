@@ -1,0 +1,9 @@
+.left_side_bar_ {
+  inset: 0;
+  background: #242834;
+  max-width: 80px;
+  padding: 0px 35px;
+  padding-top: 80px;
+  position: fixed;
+  bottom: 0;
+}
