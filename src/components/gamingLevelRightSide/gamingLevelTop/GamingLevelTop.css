@@ -1,0 +1,52 @@
+.gaming_level_top_wrapper {
+  min-height: 120px;
+  padding: 0 28px;
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.image_area_gaming_level {
+  margin-right: 28px;
+}
+.gaming_level_top_wrapper .top_one {
+  align-items: top;
+  margin-bottom: 20px;
+}
+.right_gaming_level {
+  width: 100%;
+}
+.gaming_level_top_wrapper .progress {
+  height: 6px !important;
+}
+.gaming_level_top_wrapper .progress-bar {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 0.7595413165266106) 0%,
+    rgba(91, 101, 244, 0.6026785714285714) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.percentDetail_ {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #9092a5;
+  margin-bottom: 0px;
+}
+.percentDetail_ span {
+  color: #3d405c;
+  font-weight: 700;
+  font-size: 20px;
+}
+.total_point {
+  color: #afb0bf;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 12px;
+  margin-bottom: 0px;
+}

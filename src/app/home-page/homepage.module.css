@@ -467,3 +467,62 @@
   margin-bottom: 36px;
   color: #3d405c;
 }
+.gamification {
+  padding-top: 60px;
+  padding-bottom: 32px;
+}
+.gamification p {
+  margin-bottom: 0px;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  color: #9192a5;
+  text-transform: uppercase;
+}
+.gamification h5 {
+  font-family: "Rajdhani", sans-serif;
+  margin-bottom: 0px;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #3d405c;
+  margin-top: 8px;
+}
+.charting_row_gaming {
+  padding: 16px 0px;
+}
+.overview_accounts_ {
+  margin-top: 44px;
+  margin-bottom: 32px;
+}
+.overview_accounts_ p {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  color: #9192a5;
+}
+.overview_accounts_ h5 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #3d405c;
+  margin-top: 8px;
+}
+.headings span,
+.engagments_geadin span {
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  background-color: #4ff461;
+  display: inline-block;
+  margin-right: 6px;
+}
+.engagments_geadin span {
+  background-color: #7750f8;
+}
+.headings {
+  margin-right: 32px;
+}

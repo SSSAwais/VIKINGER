@@ -37,6 +37,16 @@ import funnyemo from "../../assets/images/funnyemo.png";
 import loveemo from "../../assets/images/loveemo.png";
 import wowemo from "../../assets/images/happyemo.png";
 import PersonalActivity from "@/components/personalActivity/PersonalActivity";
+import UpdateDataSlider from "@/components/updateDataSlider/UpdateSlider";
+import GamificationCard from "@/components/gamification/GamificationCard";
+import coffee from "../../assets/images/caffeinated-b.png";
+import complete from "../../assets/images/completedq-l.png";
+import GameChartDetail from "@/components/gameChartDetail/GameChartDetail";
+import GamingLevelTop from "@/components/gamingLevelRightSide/gamingLevelTop/GamingLevelTop";
+import GamingLevelBottom from "@/components/gamingLevelRightSide/gamingLevelBottom/GamingLevelBottom";
+import AccountAnalytics from "@/components/accountAnalytics/AccountAnalytics";
+import MonthlyReportChart from "@/components/monthReportChart/MonthlyReportChart";
+import FriendActivity from "@/components/friendActitivy/FriendActivity";
 const HomePage = () => {
   const [profileData, setProfileData] = useState([
     {
@@ -150,6 +160,22 @@ const HomePage = () => {
       totalreactions: "803",
       reactionname: "Comments",
       username: "DESTROY DEX",
+    },
+  ]);
+  const [gamificationData, setGamificationData] = useState([
+    {
+      icon: coffee,
+      heading: "Last Badge Unlocked",
+      matter: "Caffeinated",
+      daysago: " 2 days ago",
+      btnName: "Browse All",
+    },
+    {
+      icon: complete,
+      heading: "Last Completed Quest",
+      matter: "Nothing to Hide",
+      daysago: " 7 hours ago",
+      btnName: "Browse All",
     },
   ]);
   return (
@@ -401,6 +427,86 @@ const HomePage = () => {
                 <div>
                   <PersonalActivity />
                 </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div>
+              <UpdateDataSlider />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-12">
+              <div className={style.gamification}>
+                <p>overview</p>
+                <h5>Gamification</h5>
+              </div>
+            </div>
+          </div>
+          <div className={`row `}>
+            {gamificationData.map((e, idx) => {
+              return (
+                <div
+                  className={`col-lg-6 col-md-6 col-sm-12 ${style.game_cards_wrapper}`}
+                  key={idx}
+                >
+                  <GamificationCard
+                    icon={e.icon}
+                    heading={e.heading}
+                    matter={e.matter}
+                    daysago={e.daysago}
+                    btnName={e.btnName}
+                  />
+                </div>
+              );
+            })}
+          </div>
+          <div className={`row ${style.charting_row_gaming}`}>
+            <div className="col-lg-3">
+              <GameChartDetail />
+            </div>
+            <div className="col-lg-9">
+              <GamingLevelTop />
+              <GamingLevelBottom />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-12">
+              <div className={style.overview_accounts_}>
+                <p className="mb-0">Overview</p>
+                <h5 className="mb-0">Account Analytics</h5>
+              </div>
+            </div>
+          </div>
+          <div>
+            <AccountAnalytics />
+          </div>
+          <div className="row">
+            <div className="col-12">
+              <div className={style.monthlyReport}>
+                <div className="d-flex justify-content-between">
+                  <h5>Monthly Report</h5>
+                  <div className="d-flex">
+                    <div className={style.headings}>
+                      <span></span>
+                      Visits
+                    </div>
+                    <div className={style.engagments_geadin}>
+                      <span></span>
+                      Engagments
+                    </div>
+                  </div>
+                </div>
+                {/* <div>
+                  <MonthlyReportChart />
+                </div> */}
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-9">
+              <div className="top_friend_activity">
+                <FriendActivity />
               </div>
             </div>
           </div>

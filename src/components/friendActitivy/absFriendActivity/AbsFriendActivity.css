@@ -1,0 +1,55 @@
+.iamge_names {
+  display: flex;
+  align-items: center;
+}
+.name_date_of_friend {
+  margin-left: 8px;
+}
+.name_date_of_friend h4 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  margin-bottom: 0px;
+  color: #3d405c;
+}
+.name_date_of_friend p {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  margin-bottom: 0px;
+  color: #9192a5;
+  margin-top: 4px;
+}
+.reactionss,
+.commetnss,
+.sharee,
+.repliies,
+.percent__ {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  margin-bottom: 0px;
+  color: #3d405c;
+  padding-top: 16px;
+}
+.prog_bar {
+  padding-top: 25px !important;
+}
+.prog_bar .progress {
+  height: 6px !important;
+}
+.prog_bar .progress-bar {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 0.7595413165266106) 0%,
+    rgba(91, 101, 244, 0.6026785714285714) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.progress_section {
+  display: flex;
+}

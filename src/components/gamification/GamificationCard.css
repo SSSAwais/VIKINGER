@@ -1,0 +1,66 @@
+.gamification_card_bg {
+  background-image: url("../../assets/images/gamebg1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 26px 28px;
+  border-radius: 12px;
+  min-height: 142px;
+}
+.left_gamification_side {
+  display: flex;
+  align-items: center;
+}
+.left_gamification_side img {
+  margin-right: 16px;
+}
+.left_game_data h6 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 0px;
+}
+.left_game_data p {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  color: #fff;
+  margin-bottom: 0px;
+  font-weight: 500;
+  margin-top: 8px;
+}
+.left_game_data p span {
+  font-weight: 700;
+}
+.inner_game_area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inner_game_area button {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 48px;
+  width: 140px;
+  background-color: #fff;
+  color: #3e3f5e;
+  height: 48px;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  box-shadow: 3px 5px 10px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
+.col-lg-6:nth-child(2) .gamification_card_bg,
+.col-md-6:nth-child(2) .gamification_card_bg,
+.col-sm-12:nth-child(2) .gamification_card_bg {
+  background-image: url("../../assets/images/gamebg2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 26px 28px;
+  border-radius: 12px;
+  min-height: 142px;
+}

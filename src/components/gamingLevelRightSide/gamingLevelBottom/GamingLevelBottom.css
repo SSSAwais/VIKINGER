@@ -1,0 +1,37 @@
+.experience_history_wrapper {
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.06);
+  margin-top: 16px;
+  /* padding: 32px 28px 0; */
+  padding-bottom: 28px;
+}
+.experience_history_wrapper .experience_history_heading {
+  padding: 32px 28px 0;
+}
+.experience_history_wrapper .experience_history_heading h5 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  margin-bottom: 0px;
+  color: #3d405c;
+}
+.experience_history_wrapper .history_exp_detail {
+  margin-top: 28px;
+  padding: 0px 28px;
+}
+.history_exp_detail {
+  height: 305px;
+  overflow: hidden auto;
+}
+.history_exp_detail::-webkit-scrollbar {
+  width: 2px;
+}
+.history_exp_detail::-webkit-scrollbar-track {
+  /* background-color: darkgrey; */
+}
+.history_exp_detail::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  border: 3px solid #afb0bf;
+}

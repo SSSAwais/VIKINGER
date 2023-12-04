@@ -1,0 +1,75 @@
+.account_analytic_wrapper,
+.account_analytic_wrapper_2 {
+  background-image: url("../../assets/images/bottombg1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding: 32px 28px 84px;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+}
+.account_analytic_wrapper .count {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 0px;
+  color: #3d405c;
+  margin-top: 24px;
+}
+.account_analytic_wrapper .active_users {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  margin-bottom: 0;
+  color: #3d405c;
+  margin-top: 16px;
+}
+.account_analytic_wrapper .account_detail_ {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.account_analytic_wrapper_2 {
+  background-image: url("../../assets/images/Bottom-Detai2l.png");
+}
+.anaytics_icon {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.anaytics_icon span {
+  color: #4ff461;
+  font-size: 10px;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #4ff461;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: 2px; */
+  margin-right: 4px;
+}
+.anaytics_icon_2 span {
+  color: white;
+  border: 2px solid white;
+}
+.account_analytic_wrapper_3 {
+  background-image: url("../../assets/images/Bottom-Detai3l.png");
+}
+.anaytics_icon_3 span {
+  color: #ff5384;
+  border: 2px solid #ff5384;
+}
+.account_analytic_wrapper_4 {
+  background-image: url("../../assets/images/Bottom-Detail4.png");
+}
