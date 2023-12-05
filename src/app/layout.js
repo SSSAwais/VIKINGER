@@ -48,7 +48,7 @@ export default function RootLayout({ children }) {
         <main className="mian">
           <LeftSidebar />
           <div className="content">{children}</div>
-          <RightSidebar />
+          {/* <RightSidebar /> */}
         </main>
         <div className="footering">
           <Footer />

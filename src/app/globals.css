@@ -118,6 +118,6 @@ a {
   padding-top: 80px;
 }
 .mian {
-  display: flex;
+  /* display: flex; */
   /* justify-content: space-between; */
 }
