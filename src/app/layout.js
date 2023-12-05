@@ -1,8 +1,11 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/js/bootstrap.bundle";
 import Header from "@/layout/header/header";
 import Footer from "@/layout/footer/footer";
+import LeftSidebar from "@/layout/left-siderbar/LeftSidebar";
+import RightSidebar from "@/layout/right-sidebar/RightSidebar";
 
 export const metadata = {
   title: "VIKINGER",
@@ -39,12 +42,27 @@ export default function RootLayout({ children }) {
         type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
       />
+
       <body className="bodddy">
         <Header />
-        {children}
+        <main className="mian">
+          <LeftSidebar />
+          <div className="content">{children}</div>
+          <RightSidebar />
+        </main>
         <div className="footering">
           <Footer />
         </div>
+        <script
+          src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+          integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+          crossorigin="anonymous"
+        ></script>
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+          integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+          crossorigin="anonymous"
+        ></script>
       </body>
     </html>
   );

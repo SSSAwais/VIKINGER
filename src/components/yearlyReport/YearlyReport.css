@@ -1,0 +1,33 @@
+.yearly_report_wrapper {
+  background-color: white;
+  padding: 32px 28px;
+  border-radius: 12px;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.06);
+  margin-top: 16px;
+}
+.report_action_,
+.comment_action {
+  display: flex;
+  margin-left: 32px;
+}
+.report_action_ span,
+.comment_action span {
+  background-color: #00d2e1;
+  margin-right: 6px;
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  display: inline-block;
+}
+.comment_action span {
+  background-color: #4595fa;
+}
+.report_action_ h6,
+.comment_action h6 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 12px;
+  margin-bottom: 0px;
+  color: #3d405c;
+}

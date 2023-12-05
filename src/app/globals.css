@@ -108,3 +108,16 @@ a {
     display: block;
   }
 }
+.content {
+  width: 100%;
+  max-width: calc(100% - 80px);
+  position: relative;
+  float: right;
+  background-color: #f8f8fb;
+  height: auto;
+  padding-top: 80px;
+}
+.mian {
+  display: flex;
+  /* justify-content: space-between; */
+}

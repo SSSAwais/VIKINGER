@@ -16,10 +16,17 @@
   margin-top: 36px;
 }
 .main_countriess h5 {
+  margin-left: 10px;
+}
+.main_countriess h5,
+.main_countriess p {
   font-family: "Rajdhani", sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 14px;
   margin-bottom: 0px;
   color: #3d405c;
+}
+.top_countris {
+  margin-bottom: 26px;
 }

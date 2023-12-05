@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #afb0c0;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Marketplace_Icon" data-name="Marketplace Icon" class="cls-1" d="M48,732v2H32v-2H48m0-2H32a2,2,0,0,0-2,2v2a2,2,0,0,0,2,2H48a2,2,0,0,0,2-2v-2a2,2,0,0,0-2-2h0Zm-1.027,6-0.945,5.671L46,741.833V742H34v-0.165l-0.027-.164L33.028,736H46.973M49,734H31v2h0l1,6a2,2,0,0,0,2,2H46a2,2,0,0,0,2-2l1-6v-2h0Zm-3-10H42v2h2.439l1,4H34.561l1-4H38v-2H34l-2,8H48Z" transform="translate(-30 -724)"/>
+</svg>

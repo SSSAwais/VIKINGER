@@ -1,9 +1,35 @@
 .left_side_bar_ {
   inset: 0;
-  background: #242834;
+  background: #fff;
   max-width: 80px;
-  padding: 0px 35px;
+  /* padding: 0px 35px; */
   padding-top: 80px;
   position: fixed;
   bottom: 0;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.06);
+  text-align: center;
+}
+.profile_image {
+  padding-top: 20px;
+}
+.menu_items ul {
+  /* padding-left: 0px; */
+  margin-top: 26px;
+  padding: 0px 16px;
+}
+.menu_items ul li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.menu_items ul li img {
+  height: 48px;
+  /* display: block; */
+}
+
+.activeitem {
+  background-color: #00d2e1;
+  border-radius: 12px;
+}
+.activeitem img {
+  filter: brightness(5);
 }

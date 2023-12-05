@@ -3,11 +3,13 @@ import style from "./page.module.css";
 import HomePage from "./home-page/page";
 export default function Home() {
   return (
-    <main className={style.mian}>
-      <LeftSidebar />
-      <div className={style.content}>
-        <HomePage />
-      </div>
-    </main>
+    // <main className={style.mian}>
+    //   <LeftSidebar />
+    //   <div className={style.content}>
+    //   </div>
+    // </main>
+    <>
+      <HomePage />
+    </>
   );
 }

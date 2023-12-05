@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #afb0c0;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Events_Icon" data-name="Events Icon" class="cls-1" d="M46,606H34a4,4,0,0,0-4,4v10a4,4,0,0,0,4,4H46a4,4,0,0,0,4-4V610A4,4,0,0,0,46,606Zm2,14a2,2,0,0,1-2,2H34a2,2,0,0,1-2-2V610a2,2,0,0,1,2-2H46a2,2,0,0,1,2,2v10Zm-18-8v2H50v-2H30Zm5-8v6h2v-6H35Zm8,0v6h2v-6H43Z" transform="translate(-30 -604)"/>
+</svg>

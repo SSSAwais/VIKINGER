@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Overview_Icon" data-name="Overview Icon" class="cls-1" d="M48,252v10H46V252h2m0-2H46a2,2,0,0,0-2,2v10a2,2,0,0,0,2,2h2a2,2,0,0,0,2-2V252a2,2,0,0,0-2-2h0Zm-7-4v16H39V246h2m0-2H39a2,2,0,0,0-2,2v16a2,2,0,0,0,2,2h2a2,2,0,0,0,2-2V246a2,2,0,0,0-2-2h0Zm-7,14v4H32v-4h2m0-2H32a2,2,0,0,0-2,2v4a2,2,0,0,0,2,2h2a2,2,0,0,0,2-2v-4a2,2,0,0,0-2-2h0Z" transform="translate(-30 -244)"/>
+</svg>

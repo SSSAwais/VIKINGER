@@ -49,6 +49,8 @@ import MonthlyReportChart from "@/components/monthReportChart/MonthlyReportChart
 import FriendActivity from "@/components/friendActitivy/FriendActivity";
 import Engagments from "@/components/friendActitivy/engagments/Engagments";
 import TopVisitCountries from "@/components/topVisitCountries/TopVisitCountries";
+import WorldMap from "@/components/worldMap/WorldMap";
+import YearlyReport from "@/components/yearlyReport/YearlyReport";
 const HomePage = () => {
   const [profileData, setProfileData] = useState([
     {
@@ -518,6 +520,14 @@ const HomePage = () => {
           <div className="row">
             <div className="col-lg-3">
               <TopVisitCountries />
+            </div>
+            <div className="col-lg-9">
+              <WorldMap />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-12">
+              <YearlyReport />
             </div>
           </div>
         </div>

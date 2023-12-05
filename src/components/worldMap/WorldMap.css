@@ -1,0 +1,31 @@
+.visit_world_map_wrapper {
+  padding: 32px 28px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.06);
+}
+.world_map {
+  margin-top: 36px;
+}
+.visit_world_map_wrapper .dropdown {
+  height: 0px !important;
+}
+.visit_world_map_wrapper .dropdown button {
+  color: #3d405c;
+  background-color: white;
+  border: none;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.visit_world_map_wrapper .dropdown-menu {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #3d405c;
+  background-color: white !important;
+  transition: none !important;
+}
