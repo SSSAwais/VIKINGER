@@ -1,0 +1,71 @@
+.engagments_wrapper {
+  padding: 32px 28px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.06);
+}
+.reaction_friend,
+.comments_frinds {
+  width: 100%;
+  text-align: center;
+}
+.reaction_friend span,
+.comments_frinds span {
+  background-color: #7750f8;
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  display: inline-block;
+  margin: 0 auto 20px;
+}
+.comments_frinds span {
+  background-color: #23d3fb;
+}
+.reaction__comments {
+  display: flex;
+  justify-content: center;
+  margin-top: 36px;
+}
+.reaction_friend {
+  position: relative;
+}
+.share__replies {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+.reaction_friend h5,
+.comments_frinds h5 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 22px;
+  margin-bottom: 0px;
+  color: #3d405c;
+}
+.reaction_friend p,
+.comments_frinds p {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 12px;
+  color: #aeb0bf;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+.engagment_heading {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  margin-bottom: 0px;
+}
+.reaction_friend::after {
+  content: "";
+  width: 1px;
+  height: 40px;
+  background-color: #eaeaf4;
+  position: absolute;
+  top: 30px;
+  right: 0;
+}

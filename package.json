@@ -16,6 +16,7 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.9.1",
     "react-chartjs-2": "^5.2.0",
+    "react-dashed-progress": "^1.0.0",
     "react-dom": "^18.2.0",
     "react-gradient-progress": "^1.0.3",
     "react-slick": "^0.29.0"

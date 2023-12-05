@@ -47,6 +47,8 @@ import GamingLevelBottom from "@/components/gamingLevelRightSide/gamingLevelBott
 import AccountAnalytics from "@/components/accountAnalytics/AccountAnalytics";
 import MonthlyReportChart from "@/components/monthReportChart/MonthlyReportChart";
 import FriendActivity from "@/components/friendActitivy/FriendActivity";
+import Engagments from "@/components/friendActitivy/engagments/Engagments";
+import TopVisitCountries from "@/components/topVisitCountries/TopVisitCountries";
 const HomePage = () => {
   const [profileData, setProfileData] = useState([
     {
@@ -508,6 +510,14 @@ const HomePage = () => {
               <div className="top_friend_activity">
                 <FriendActivity />
               </div>
+            </div>
+            <div className="col-lg-3">
+              <Engagments />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-3">
+              <TopVisitCountries />
             </div>
           </div>
         </div>

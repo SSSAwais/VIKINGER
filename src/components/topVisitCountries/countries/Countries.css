@@ -1,0 +1,25 @@
+.country_wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 26px;
+}
+.flag_name_section {
+  display: flex;
+}
+.flag_name_section h6 {
+  margin-left: 10px;
+}
+.flag_name_section h6,
+.total_coutnrrry {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  margin-bottom: 0px;
+  color: #3d405c;
+}
+.img_ww {
+  width: 20px;
+  height: 14px;
+}
