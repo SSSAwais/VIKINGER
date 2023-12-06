@@ -1,12 +1,18 @@
 .bannerAraa {
-  padding-top: 20px;
-  position: relative;
+  margin-top: 20px;
+  /* position: relative; */
+  background-image: url("../../assets/images/bannerimg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 52px 60px 0 200px;
+  min-height: 160px;
+  border-radius: 12px;
 }
 .banner_content {
-  position: absolute;
+  /* position: absolute;
   top: 80px;
   left: 200px;
-  text-align: start;
+  text-align: start; */
 }
 .banner_content h4 {
   font-family: "Rajdhani", sans-serif;
@@ -635,13 +641,17 @@
 
     padding-top: 8px;
   }
-  .bannerAraa img {
+  /* .bannerAraa img {
     height: 85px;
-  }
+  } */
 }
 @media screen and (max-width: 768px) {
   .welcome_back_resp {
     width: 100% !important;
+  }
+  .bannerAraa {
+    min-height: 86px;
+    padding: 24px 60px 0 100px;
   }
 }
 @media screen and (max-width: 576px) {

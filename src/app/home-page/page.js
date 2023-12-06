@@ -189,7 +189,7 @@ const HomePage = () => {
           <div className="row justify-content-center">
             <div className="col-12 ">
               <div className={style.bannerAraa}>
-                <Image src={bannerimg} alt="" className="img-fluid" />
+                {/* <Image src={bannerimg} alt="" className="img-fluid" /> */}
                 <div className={style.banner_content}>
                   <h4>OverView</h4>
                   <p>Review your account,see stats and more!</p>
