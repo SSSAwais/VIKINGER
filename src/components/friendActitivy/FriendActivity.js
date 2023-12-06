@@ -68,11 +68,13 @@ const FriendActivity = () => {
           <thead>
             <tr>
               <th className="frind_heading">FRIEND</th>
-              <th className="frind_heading">REACTIONS</th>
-              <th className="frind_heading">COMMENTS</th>
-              <th className="frind_heading">SHARES</th>
-              <th className="frind_heading">REPLIES</th>
-              <th className="frind_heading">POST ENGAGEMENT</th>
+              <th className="frind_heading ree">REACTIONS</th>
+              <th className="frind_heading ree">COMMENTS</th>
+              <th className="frind_heading ree">SHARES</th>
+              <th className="frind_heading ree">REPLIES</th>
+              <th className="frind_heading" colSpan={3}>
+                POST ENGAGEMENT
+              </th>
               <th className="frind_heading"></th>
             </tr>
           </thead>

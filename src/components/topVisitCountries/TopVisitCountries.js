@@ -11,6 +11,7 @@ import Countries from "./countries/Countries";
 import Image from "next/image";
 import ameraica from "../../assets/images/Flag.png";
 import india from "../../assets/images/Flag1.png";
+import brazil from "../../assets/images/brazil.png";
 const TopVisitCountries = () => {
   const [countryData, setCountryData] = useState([
     {
@@ -66,6 +67,17 @@ const TopVisitCountries = () => {
               <div className="d-flex">
                 <Image src={india} alt="" />
                 <h5>India</h5>
+              </div>
+              <div className="d-flex justify-content-between">
+                <p>18201</p>
+              </div>
+            </div>
+          </div>
+          <div className="top_countris">
+            <div className="d-flex main_countriess justify-content-between">
+              <div className="d-flex brazil">
+                <Image src={brazil} alt="" />
+                <h5>Brazil</h5>
               </div>
               <div className="d-flex justify-content-between">
                 <p>18201</p>

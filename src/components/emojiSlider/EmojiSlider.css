@@ -1,15 +1,19 @@
-.emoji_slider_bg {
+/* .emoji_slider_bg {
   background-color: #fff;
   display: flex;
   justify-content: space-between;
   padding: 28px 0px;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.06);
+} */
+.second_emoji_slider {
+  padding: 0px 48px;
 }
-.emoji_slider_bg .slider-content- {
+.second_emoji_slider .slider-content- {
   width: 100%;
   text-align: center;
   position: relative;
 }
-.emoji_slider_bg .slider-content-::after {
+.second_emoji_slider .slider-content-::after {
   content: "";
   width: 1px;
   height: 40px;
@@ -18,7 +22,7 @@
   position: absolute;
   right: 0;
 }
-.emoji_slider_bg .lastone::after {
+.second_emoji_slider .lastone::after {
   content: "";
   width: 1px;
   height: 0px;
@@ -28,7 +32,7 @@
   right: 0;
   background-color: transparent;
 }
-.slider-content- .first_number {
+.second_emoji_slider .slider-content- .first_number {
   font-family: "Rajdhani", sans-serif;
   font-size: 22px;
   font-weight: 700;
@@ -36,10 +40,26 @@
   line-height: 22px;
   padding-top: 16px;
 }
-.slider-content- .second_like {
+.second_emoji_slider .slider-content- .second_like {
   font-family: "Rajdhani", sans-serif;
   font-size: 12px;
   font-weight: 700;
   color: #afb0bf;
   padding-top: 8px;
+}
+.second_emoji_slider .slick-initialized .slick-slide {
+  padding: 28px 0px;
+}
+.second_emoji_slider .slick-prev {
+  left: -45px !important;
+  top: 70px !important;
+}
+.second_emoji_slider .slick-next {
+  right: -25px !important;
+  top: 70px !important;
+}
+@media screen and (max-width: 1100px) {
+  .second_emoji_slider {
+    margin-top: 16px;
+  }
 }

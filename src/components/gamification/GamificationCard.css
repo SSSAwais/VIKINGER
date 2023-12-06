@@ -64,3 +64,24 @@
   border-radius: 12px;
   min-height: 142px;
 }
+@media screen and (max-width: 1280px) {
+  .left_game_data h6 {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .inner_game_area button {
+    width: 120px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .gamification_card_bg,
+  .col-lg-6:nth-child(2) .gamification_card_bg,
+  .col-md-6:nth-child(2) .gamification_card_bg,
+  .col-sm-12:nth-child(2) .gamification_card_bg {
+    padding: 26px 18px;
+  }
+  .inner_game_area button {
+    font-size: 12px;
+    width: 80px;
+  }
+}

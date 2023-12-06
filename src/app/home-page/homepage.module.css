@@ -48,6 +48,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 160px;
+  background-position: center;
 }
 .name_n_greeting h5 {
   font-family: "Rajdhani", sans-serif;
@@ -72,6 +73,9 @@
 }
 .welcome_back {
   background-color: #fff;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  overflow: hidden;
 }
 .lower_content_profile {
   text-align: center;
@@ -169,6 +173,7 @@
   width: 66%;
   border-radius: 12px;
   margin-top: 16px;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.06);
 }
 .porfile_activity_content h4 {
   font-family: "Rajdhani", sans-serif;
@@ -200,6 +205,7 @@
   background-position: bottom;
   height: 215px;
   border-radius: 12px;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.06);
 }
 .profile_views {
   background-image: url("../../assets/images/secondchart.png");
@@ -288,6 +294,7 @@
   padding-top: 24px;
   border-radius: 12px;
   background-color: white;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.06);
 }
 .name_timeeee {
   margin-left: 8px;
@@ -525,4 +532,121 @@
 }
 .headings {
   margin-right: 32px;
+}
+.sliderSecton2,
+.activity_chart2 {
+  display: none;
+}
+@media screen and (max-width: 1360px) {
+  .profilecard_width {
+    width: 33% !important;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .banner_content {
+    top: 68px;
+    left: 180px;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .profilecard_width {
+    width: 50% !important;
+    margin-bottom: 10px;
+  }
+  .banner_content {
+    top: 55px;
+    left: 140px;
+  }
+  .banner_content h4 {
+    font-size: 26px;
+    line-height: 26px;
+  }
+  .banner_content p {
+    font-size: 16px;
+    line-height: 16px;
+
+    padding-top: 10px;
+  }
+  .welcome_back_resp {
+    width: 40% !important;
+  }
+  .sliderSecton,
+  .activity_chart {
+    display: none;
+  }
+  .profile_activity_wrapper {
+    background-color: #ffffff;
+    padding: 30px 0px 0;
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 0px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.06);
+  }
+  .acitivy___ {
+    height: auto;
+    padding-bottom: 22px;
+  }
+  .greeting_section_resp {
+    width: 60%;
+  }
+  .sliderSecton2,
+  .activity_chart2 {
+    display: block;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .personal_activity {
+    margin-top: 16px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .banner_content {
+    top: 45px;
+    left: 120px;
+  }
+  .welcome_back_resp {
+    width: 100% !important;
+  }
+  .greeting_section_resp {
+    width: 100%;
+    margin-top: 16px;
+  }
+  .game_cards_wrapper {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .gaming_resp {
+    margin-top: 16px;
+  }
+}
+@media screen and (max-width: 860px) {
+  .banner_content {
+    top: 40px;
+    left: 100px;
+  }
+  .banner_content h4 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .banner_content p {
+    font-size: 14px;
+    line-height: 14px;
+
+    padding-top: 8px;
+  }
+  .bannerAraa img {
+    height: 85px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .welcome_back_resp {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .profilecard_width {
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
 }

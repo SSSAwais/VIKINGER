@@ -13,7 +13,8 @@
 .exp_left_side img {
   margin-right: 18px;
 }
-.exp_left_side .tags_exp {
+.exp_left_side .tags_exp,
+.tags_exp_2 {
   font-family: "Rajdhani", sans-serif;
   height: 32px;
   padding: 0 14px;
@@ -42,4 +43,46 @@
   line-height: 14px;
   font-weight: 500;
   color: #3d405c;
+}
+.time_ago2 {
+  display: none;
+}
+.tags_exp_2,
+.resp_version {
+  display: none !important;
+}
+@media screen and (max-width: 768px) {
+  .web_version {
+    display: none;
+  }
+  .resp_version {
+    display: block !important;
+  }
+  .exp_left_side {
+    flex-direction: column;
+    align-items: start;
+  }
+  .tags_exp,
+  .timeAgo {
+    display: none;
+  }
+  .time_ago2 {
+    display: block;
+    margin-top: 8px;
+  }
+  .detail_exp {
+    margin-top: 12px;
+  }
+  .tags_exp_2 {
+    display: block;
+    margin-right: 0px;
+  }
+  .tags_exp_2 span {
+    color: #26cdda;
+    margin-right: 4px;
+  }
+  .exp_list_wrapper {
+    display: block;
+    width: 100%;
+  }
 }

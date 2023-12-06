@@ -109,15 +109,50 @@ a {
   }
 }
 .content {
-  width: 100%;
+  /* width: 100%;
   max-width: calc(100% - 80px);
   position: relative;
   float: right;
   background-color: #f8f8fb;
-  height: auto;
+  height: auto; */
   padding-top: 80px;
+  flex: 1;
 }
 .mian {
-  /* display: flex; */
+  display: flex;
   /* justify-content: space-between; */
+}
+
+@media screen and (max-width: 1500px) {
+  .content {
+    max-width: 1150px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .content {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 112px 112px 200px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .content {
+    padding: 80px 100px 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .content {
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-right: 0px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .content {
+    padding-top: 80px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }

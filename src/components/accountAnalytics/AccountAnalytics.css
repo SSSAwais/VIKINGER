@@ -73,3 +73,12 @@
 .account_analytic_wrapper_4 {
   background-image: url("../../assets/images/Bottom-Detail4.png");
 }
+@media screen and (max-width: 992px) {
+  .card_resp__ {
+    margin-bottom: 16px;
+  }
+  .account_analytic_wrapper,
+  .account_analytic_wrapper_2 {
+    padding-bottom: 100px;
+  }
+}

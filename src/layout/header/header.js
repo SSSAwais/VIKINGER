@@ -18,9 +18,11 @@ import one from "../../assets/images/one.jpg";
 import two from "../../assets/images/two.jpg";
 import three from "../../assets/images/three.jpg";
 import four from "../../assets/images/four.jpg";
+import LeftSidebar from "../left-siderbar/LeftSidebar";
 
 const Header = () => {
   const [cart, setCart] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [friendRequests, setFriendRequests] = useState(false);
 
   const _handleCart = () => {
@@ -59,9 +61,26 @@ const Header = () => {
       qty: 1,
     },
   ]);
+  const _handleToggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+    console.log("clicked ");
+  };
+
+  const _handleclose = () => {
+    setIsSidebarOpen(false);
+  };
   return (
     <>
-      <header className="header_wrapper">
+      {isSidebarOpen ? (
+        <LeftSidebar
+          isSidebarOpned={isSidebarOpen}
+          _handleClose={_handleclose}
+        />
+      ) : (
+        ""
+      )}
+
+      <header className="header_wrapper ">
         <div className="container-fluid">
           <div className="row align-items-center">
             <div className="col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-1 logo_area">
@@ -69,8 +88,11 @@ const Header = () => {
             </div>
             <div className="col-xxl-3 col-xl-1 col-lg-1 col-md-1 col-sm-1 tog_menyu d-flex align-items-center">
               <ul className="links_for_header">
-                <li>
+                <li className="togle_icon_for_web">
                   <Image src={toogle} alt="" />
+                </li>
+                <li className="togle_icon_for_mobile">
+                  <Image src={toogle} alt="" onClick={_handleToggleSidebar} />
                 </li>
                 <li className="linksss">
                   <Link href="#"> Home</Link>
@@ -81,7 +103,7 @@ const Header = () => {
                 <li className="linksss">
                   <Link href="#">Faqs</Link>
                 </li>
-                <li className="menu-main-item">
+                <li className="menu-main-item linksss">
                   <p className="menu-main-item-link mb-0">...</p>
 
                   {/* <ul className="menu-main">

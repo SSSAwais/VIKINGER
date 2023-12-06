@@ -1,13 +1,34 @@
 .right_side_bar_ {
-  inset: 0;
+  /* inset: 0;
   background: #fff;
   max-width: 80px;
-  /* padding: 0px 35px; */
   padding-top: 80px;
   position: fixed;
   bottom: 0;
   box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.06);
   text-align: center;
+  right: 0px; */
+  position: fixed;
+  bottom: 0px;
   right: 0px;
-  float: right;
+  top: 0px;
+  width: 80px;
+  padding-top: 80px;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.06);
+  background: #fff;
+}
+.right_sidebar_content {
+  padding-top: 20px;
+  text-align: center;
+}
+.other_users {
+  text-align: center;
+}
+.imag_area_right {
+  padding-top: 11px;
+}
+@media screen and (max-width: 768px) {
+  .right_side_bar_ {
+    display: none;
+  }
 }

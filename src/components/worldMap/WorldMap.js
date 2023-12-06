@@ -7,7 +7,7 @@ const WorldMap = () => {
     <>
       <div className="visit_world_map_wrapper">
         <div className="d-flex justify-content-between">
-          <h5>Visits World Map</h5>
+          <h5 className="visit_world_map">Visits World Map</h5>
           <div className="dropdown_box">
             <div className="dropdown">
               <button
@@ -39,7 +39,7 @@ const WorldMap = () => {
           </div>
         </div>
         <div className="world_map">
-          <Image src={worldmap} alt="" />
+          <Image src={worldmap} alt="" className="img-fluid" />
         </div>
       </div>
     </>

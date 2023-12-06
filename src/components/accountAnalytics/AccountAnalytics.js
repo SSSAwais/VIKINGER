@@ -8,7 +8,7 @@ import Image from "next/image";
 const AccountAnalytics = () => {
   return (
     <div className="row">
-      <div className="col-lg-3">
+      <div className="col-lg-3 col-md-6 col-sm-12 card_resp__">
         <div className="account_analytic_wrapper">
           <div className="">
             <div className="d-flex justify-content-end">
@@ -29,7 +29,7 @@ const AccountAnalytics = () => {
           </div>
         </div>
       </div>
-      <div className="col-lg-3">
+      <div className="col-lg-3 col-md-6 col-sm-12 card_resp__">
         <div className="account_analytic_wrapper account_analytic_wrapper_2">
           <div className="">
             <div className="d-flex justify-content-end">
@@ -52,7 +52,7 @@ const AccountAnalytics = () => {
           </div>
         </div>
       </div>
-      <div className="col-lg-3">
+      <div className="col-lg-3 col-md-6 col-sm-12 card_resp__">
         <div className="account_analytic_wrapper account_analytic_wrapper_3">
           <div className="">
             <div className="d-flex justify-content-end">
@@ -74,7 +74,7 @@ const AccountAnalytics = () => {
           </div>
         </div>
       </div>
-      <div className="col-lg-3">
+      <div className="col-lg-3 col-md-6 col-sm-12 card_resp__">
         <div className="account_analytic_wrapper account_analytic_wrapper_4">
           <div className="">
             <div className="d-flex justify-content-end">

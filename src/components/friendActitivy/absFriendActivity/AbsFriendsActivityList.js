@@ -25,19 +25,19 @@ const AbsFriendsActivityList = (props) => {
           </div>
         </div>
       </td>
-      <td>
-        <p className="reactionss"> {reaction}</p>
+      <td className="ree">
+        <p className="reactionss "> {reaction}</p>
       </td>
-      <td>
-        <p className="commetnss">{comments}</p>
+      <td className="ree">
+        <p className="commetnss ">{comments}</p>
       </td>
-      <td>
-        <p className="sharee"> {share}</p>
+      <td className="ree">
+        <p className="sharee "> {share}</p>
       </td>
-      <td>
-        <p className="repliies"> {replies}</p>
+      <td className="ree">
+        <p className="repliies "> {replies}</p>
       </td>
-      <td className="prog_bar">
+      <td className="prog_bar" colSpan={4}>
         {/* <div className="progress_section"> */}
         <ProgressBar now={value} />
 

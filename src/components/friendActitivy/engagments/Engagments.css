@@ -69,3 +69,9 @@
   top: 30px;
   right: 0;
 }
+@media screen and (max-width: 768px) {
+  .engagments_wrapper {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+}

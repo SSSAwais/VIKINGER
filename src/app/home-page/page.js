@@ -209,7 +209,7 @@ const HomePage = () => {
             {profileData.map((e, idx) => {
               return (
                 <div
-                  className="col-lg-3 col-md-4 col-sm-6 text-start"
+                  className={`col-lg-3 col-md-4 col-sm-6 text-start ${style.profilecard_width}`}
                   key={idx}
                 >
                   <ProfileCards
@@ -224,7 +224,9 @@ const HomePage = () => {
             })}
           </div>
           <div className={`row ${style.third_section}`}>
-            <div className="col-lg-3">
+            <div
+              className={`col-lg-3 col-md-4 col-sm-12" ${style.welcome_back_resp}`}
+            >
               <div className={style.welcome_back}>
                 <div className={style.name_n_greeting}>
                   <h5>Welcome Back!</h5>
@@ -271,7 +273,9 @@ const HomePage = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-9">
+            <div
+              className={`col-lg-9 col-md-8 col-sm-12 ${style.greeting_section_resp}`}
+            >
               <div className={style.sliderSecton}>
                 <GreetingSectionSlider />
               </div>
@@ -329,13 +333,48 @@ const HomePage = () => {
           </div>
           <div className="row">
             <div className="col-12">
+              <div className={style.sliderSecton2}>
+                <GreetingSectionSlider />
+              </div>
+              <div className={style.activity_chart2}>
+                <div className={style.post_engagment_in_chart}>
+                  <div className={style.increment}>
+                    <i className="fa-solid fa-plus"></i>
+                    <p className={`mb-0 ${style.percent}`}>
+                      <span>5.3%</span>
+                    </p>
+                  </div>
+                  <div className={style.post_totlasss}>
+                    <h6 className={style.totalpost}>33</h6>
+                    <p className={style.engagment}>Post Engagements</p>
+                    <p className={style.todayyy}>TODAY</p>
+                  </div>
+                </div>
+                <div className={style.profile_views}>
+                  <div className={style.posrt_tot}>
+                    <i className="fa-solid fa-minus"></i>
+                    <p className={`mb-0 ${style.percent}`}>
+                      <span>4.7%</span>
+                    </p>
+                  </div>
+                  <div className={style.post_totlasss}>
+                    <h6 className={style.totalpost}>126</h6>
+                    <p className={style.engagment}>Profile Views</p>
+                    <p className={style.todayyy}>TODAY</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-12">
               <EmojiSlider />
             </div>
           </div>
           <div className={`row ${style.topReactor_section}`}>
             {reactor?.map((e, idx) => {
               return (
-                <div className="col-lg-3  col-md-4 col-sm-6" key={idx}>
+                <div className="col-lg-3 col-md-6 col-sm-12" key={idx}>
                   <TopReactors
                     reactor={e.reactor}
                     alltime={e.alltime}
@@ -466,10 +505,12 @@ const HomePage = () => {
             })}
           </div>
           <div className={`row ${style.charting_row_gaming}`}>
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-md-12 col-sm-12">
               <GameChartDetail />
             </div>
-            <div className="col-lg-9">
+            <div
+              className={`col-lg-9 col-md-12 col-sm-12 ${style.gaming_resp}`}
+            >
               <GamingLevelTop />
               <GamingLevelBottom />
             </div>
@@ -518,10 +559,10 @@ const HomePage = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-md-12 col-sm-12">
               <TopVisitCountries />
             </div>
-            <div className="col-lg-9">
+            <div className="col-lg-9 col-md-12">
               <WorldMap />
             </div>
           </div>

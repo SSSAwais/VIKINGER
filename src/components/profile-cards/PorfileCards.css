@@ -58,3 +58,15 @@
 .profile-wrapper_cards img {
   width: 100%;
 }
+@media screen and (max-width: 768px) {
+  .content_profile_cards {
+    top: 20px;
+    left: 24px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .content_profile_cards {
+    top: 30px;
+    left: 24px;
+  }
+}
