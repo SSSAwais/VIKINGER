@@ -543,14 +543,14 @@ const HomePage = () => {
                     Monthly Report
                   </h5>
                   <div className="d-flex">
-                    <div className={style.headings}>
+                    <p className={style.headings}>
                       <span></span>
                       Visits
-                    </div>
-                    <div className={style.engagments_geadin}>
+                    </p>
+                    <p className={style.engagments_geadin}>
                       <span></span>
                       Engagments
-                    </div>
+                    </p>
                   </div>
                 </div>
                 <div className={style.chartDiv}>

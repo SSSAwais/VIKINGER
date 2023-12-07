@@ -558,8 +558,20 @@
 .engagments_geadin span {
   background-color: #7750f8;
 }
+.engagments_geadin {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
 .headings {
   margin-right: 32px;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 700;
+  margin-bottom: 0px;
 }
 .sliderSecton2,
 .activity_chart2 {
