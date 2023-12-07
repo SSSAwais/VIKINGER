@@ -85,3 +85,12 @@
     width: 80px;
   }
 }
+@media screen and (max-width: 670px) {
+  .inner_game_area {
+    flex-direction: column;
+  }
+  .left_game_data h6 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}

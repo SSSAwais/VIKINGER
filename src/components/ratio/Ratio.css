@@ -1,0 +1,17 @@
+.ratio_chart span {
+  display: none !important;
+}
+.ratio_chart {
+  position: relative;
+}
+.ratio_heading {
+  position: absolute;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 700;
+  color: #3d405c;
+  margin-bottom: 0px;
+  top: 34px;
+  left: 27px;
+}

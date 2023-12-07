@@ -12,6 +12,7 @@ import Image from "next/image";
 import ameraica from "../../assets/images/Flag.png";
 import india from "../../assets/images/Flag1.png";
 import brazil from "../../assets/images/brazil.png";
+import DottedProgressBar from "../dottedProgressBar/DottedProgressBar";
 const TopVisitCountries = () => {
   const [countryData, setCountryData] = useState([
     {
@@ -52,35 +53,56 @@ const TopVisitCountries = () => {
         {/* <DashedProgress value={5} orientation="vertical" /> */}
         <div className="countrudata_wrapper">
           <div className="top_countris">
-            <div className="d-flex main_countriess justify-content-between">
-              <div className="d-flex">
-                <Image src={ameraica} alt="" />
-                <h5>United States</h5>
-              </div>
-              <div className="d-flex justify-content-between">
-                <p>25362</p>
-              </div>
-            </div>
-          </div>
-          <div className="top_countris">
-            <div className="d-flex main_countriess justify-content-between">
-              <div className="d-flex">
-                <Image src={india} alt="" />
-                <h5>India</h5>
-              </div>
-              <div className="d-flex justify-content-between">
-                <p>18201</p>
+            <div className="main_countriess ">
+              <div className="d-flex ">
+                <div>
+                  <Image src={ameraica} alt="" />
+                </div>
+                <div className="w-100">
+                  <div className="d-flex justify-content-between">
+                    <h5>United States</h5>
+                    <p>25362</p>
+                  </div>
+                  <div>
+                    <DottedProgressBar />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           <div className="top_countris">
-            <div className="d-flex main_countriess justify-content-between">
-              <div className="d-flex brazil">
-                <Image src={brazil} alt="" />
-                <h5>Brazil</h5>
+            <div className="main_countriess ">
+              <div className="d-flex ">
+                <div>
+                  <Image src={india} alt="" />
+                </div>
+                <div className="w-100">
+                  <div className="d-flex justify-content-between">
+                    <h5>India</h5>
+                    <p>18201</p>
+                  </div>
+                  <div>
+                    <DottedProgressBar />
+                  </div>
+                </div>
               </div>
-              <div className="d-flex justify-content-between">
-                <p>18201</p>
+            </div>
+          </div>
+          <div className="top_countris">
+            <div className="main_countriess ">
+              <div className="d-flex ">
+                <div className="brazil_width">
+                  <Image src={brazil} alt="" />
+                </div>
+                <div className="w-100">
+                  <div className="d-flex justify-content-between">
+                    <h5>Brazil</h5>
+                    <p>9567</p>
+                  </div>
+                  <div>
+                    <DottedProgressBar />
+                  </div>
+                </div>
               </div>
             </div>
           </div>

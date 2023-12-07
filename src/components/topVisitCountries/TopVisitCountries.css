@@ -3,7 +3,7 @@
   border-radius: 12px;
   box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.06);
   background-color: white;
-  padding-bottom: 56px;
+  padding-bottom: 40px;
 }
 .top_visit_countries .top_country_heading {
   font-family: "Rajdhani", sans-serif;
@@ -31,7 +31,7 @@
 .top_countris {
   margin-bottom: 26px;
 }
-.brazil img {
+.brazil_width img {
   width: 38px;
   height: 26px;
 }

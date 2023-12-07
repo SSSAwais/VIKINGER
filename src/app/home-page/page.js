@@ -51,6 +51,9 @@ import Engagments from "@/components/friendActitivy/engagments/Engagments";
 import TopVisitCountries from "@/components/topVisitCountries/TopVisitCountries";
 import WorldMap from "@/components/worldMap/WorldMap";
 import YearlyReport from "@/components/yearlyReport/YearlyReport";
+import RatioCircle from "@/components/ratio/Ratio";
+import RationDetails from "@/components/ratioDetail/RationDetails";
+import popularTrophy from "../../assets/images/populartorphy.svg";
 const HomePage = () => {
   const [profileData, setProfileData] = useState([
     {
@@ -392,6 +395,12 @@ const HomePage = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className={style.popular_post_wrapper}>
+                <div className={style.popular_trophy_area}>
+                  <div className="d-flex">
+                    <Image src={popularTrophy} alt="" />
+                    <h5>Most Popular Post</h5>
+                  </div>
+                </div>
                 <div className={style.popular_top}>
                   <div className="d-flex align-items-center">
                     <Image src={miniuserprofile} alt="" />
@@ -490,7 +499,7 @@ const HomePage = () => {
             {gamificationData.map((e, idx) => {
               return (
                 <div
-                  className={`col-lg-6 col-md-6 col-sm-12 ${style.game_cards_wrapper}`}
+                  className={`col-lg-6 col-md-12 col-sm-12 ${style.game_cards_wrapper}`}
                   key={idx}
                 >
                   <GamificationCard
@@ -529,8 +538,10 @@ const HomePage = () => {
           <div className="row">
             <div className="col-12">
               <div className={style.monthlyReport}>
-                <div className="d-flex justify-content-between">
-                  <h5>Monthly Report</h5>
+                <div className="d-flex justify-content-between align-items-center">
+                  <h5 className={style.monthlyReport_heading}>
+                    Monthly Report
+                  </h5>
                   <div className="d-flex">
                     <div className={style.headings}>
                       <span></span>
@@ -542,9 +553,19 @@ const HomePage = () => {
                     </div>
                   </div>
                 </div>
-                {/* <div>
+                <div className={style.chartDiv}>
                   <MonthlyReportChart />
-                </div> */}
+                </div>
+                <div
+                  className={`d-flex justify-content-between align-items-center ${style.ratio_circle_items}`}
+                >
+                  <div>
+                    <RatioCircle />
+                  </div>
+                  <div className="ratio_value_details">
+                    <RationDetails />
+                  </div>
+                </div>
               </div>
             </div>
           </div>

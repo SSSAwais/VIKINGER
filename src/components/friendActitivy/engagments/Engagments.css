@@ -69,9 +69,41 @@
   top: 30px;
   right: 0;
 }
+.engag_reation {
+  position: absolute;
+  top: 50px;
+  left: 28px;
+}
+.engag_reation p {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1em;
+  margin-bottom: 0px;
+  font-weight: 700;
+}
+.engag_reation h6 {
+  font-family: "Rajdhani", sans-serif;
+  margin-top: 2px;
+  color: #9aa4bf;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  text-align: center;
+}
 @media screen and (max-width: 768px) {
   .engagments_wrapper {
     margin-top: 16px;
     margin-bottom: 16px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .engag_reation p {
+    font-size: 28px;
+  }
+  .engag_reation {
+    top: 54px;
+    left: 35px;
   }
 }

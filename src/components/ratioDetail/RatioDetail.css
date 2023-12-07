@@ -1,0 +1,58 @@
+.ratio_details_list {
+  display: flex;
+}
+.ratio_itemss {
+  padding: 0 30px;
+  text-align: center;
+  position: relative;
+}
+.ratio_itemss h6 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 22px;
+  margin-bottom: 0px;
+  color: #3d405c;
+}
+.ratio_itemss p {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 12px;
+  margin-bottom: 0px;
+  color: #aeb0bf;
+  margin-top: 10px;
+}
+.ratio_itemss .addon,
+.ratio_itemss .minuson {
+  color: #4ff461;
+  font-size: 12px;
+  margin-right: 5px;
+  font-weight: 700;
+}
+.ratio_itemss .minuson {
+  color: #f9515c;
+}
+.ratio_itemss:after {
+  content: "";
+  width: 1px;
+  height: 20px;
+  background-color: #eaeaf4;
+  position: absolute;
+  top: 15px;
+  right: 0px;
+}
+.ratio_itemss:nth-child(7):after {
+  content: "";
+  width: 0px;
+  height: 00px;
+  background-color: transparent;
+  position: absolute;
+  top: 15px;
+  right: 0px;
+}
+@media screen and (max-width: 1500px) {
+  .ratio_itemss {
+    padding: 0 20px;
+  }
+}

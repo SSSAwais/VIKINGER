@@ -45,6 +45,11 @@ const YearlyReport = () => {
         beginAtZero: true,
       },
     },
+    plugins: {
+      legend: {
+        display: false,
+      },
+    },
   };
 
   return (
