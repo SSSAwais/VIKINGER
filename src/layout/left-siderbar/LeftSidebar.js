@@ -19,7 +19,7 @@ const LeftSidebar = ({ isSidebarOpned, _handleClose }) => {
   const pathname = usePathname();
 
   const _handleconsole = () => {
-    console.log(pathname, "fadfdsafdsa");
+    // console.log(pathname, "fadfdsafdsa");
   };
   const menuItems = [
     icon1,
