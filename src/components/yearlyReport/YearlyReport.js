@@ -56,7 +56,7 @@ const YearlyReport = () => {
     <>
       <div className="yearly_report_wrapper">
         <div className="d-flex justify-content-between">
-          <h5>Yearly Report</h5>
+          <h5 className="yearly_report_heading">Yearly Report</h5>
           <div className="d-flex">
             <div className="report_action_">
               <span></span>
@@ -68,7 +68,7 @@ const YearlyReport = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="line_chart_section">
           <Line data={data} options={options} />
         </div>
       </div>

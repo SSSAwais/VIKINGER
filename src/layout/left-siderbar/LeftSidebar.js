@@ -33,7 +33,7 @@ const LeftSidebar = ({ isSidebarOpned, _handleClose }) => {
     icon9,
     icon10,
   ];
-  console.log("from parent ", isSidebarOpned);
+
   return (
     <>
       <aside className="left_side_bar_ web_version_sidebar">

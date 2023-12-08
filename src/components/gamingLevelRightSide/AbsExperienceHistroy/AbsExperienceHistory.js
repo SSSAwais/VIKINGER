@@ -11,16 +11,16 @@ const AbsExperienceHistory = (props) => {
             <Image src={icon} alt="" />
             <p className=" tags_exp_2 mb-0">
               <span>
-                <i class="fa-solid fa-plus"></i>
+                <i className="fa-solid fa-plus"></i>
               </span>
               {exp}
             </p>
           </div>
-          <Image src={icon} alt="" className="web_version"/>
+          <Image src={icon} alt="" className="web_version" />
 
           <p className="tags_exp mb-0">
             <span>
-              <i class="fa-solid fa-plus"></i>
+              <i className="fa-solid fa-plus"></i>
             </span>
             {exp}
           </p>

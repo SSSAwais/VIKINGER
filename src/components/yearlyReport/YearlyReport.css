@@ -31,3 +31,18 @@
   margin-bottom: 0px;
   color: #3d405c;
 }
+.yearly_report_heading {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #3d405c;
+  margin-bottom: 0px;
+}
+.line_chart_section {
+  margin-top: 36px;
+}
+.yearly_report_wrapper canvas {
+  height: 300px !important;
+  width: 100% !important;
+}
