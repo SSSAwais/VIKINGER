@@ -20,7 +20,7 @@ const YearlyReport = () => {
     datasets: [
       {
         label: "Monthly Sales",
-        data: [50, 65, 50, 65, 55, 50, 60, 55, 50],
+        data: [50, 65, 50, 65, 55, 50, 60, 55, 50, 55, 60],
         fill: false,
         borderColor: "#00d2e1",
         borderWidth: 2,
@@ -29,7 +29,7 @@ const YearlyReport = () => {
       },
       {
         // label: "Line 2",
-        data: [40, 55, 40, 50, 40, 42, 50, 45, 40],
+        data: [10, 30, 20, 20, 25, 15, 30, 25, 20, 30, 35],
 
         fill: false,
         borderColor: "#4595fa",
