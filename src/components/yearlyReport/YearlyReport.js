@@ -4,18 +4,18 @@ import { Line } from "react-chartjs-2";
 const YearlyReport = () => {
   const data = {
     labels: [
-      "January",
-      "February",
-      "March",
-      "April",
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
       "May",
-      "June",
-      "July",
-      "August",
-      "Sepetember",
-      "October",
-      "November",
-      "December",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
     ],
     datasets: [
       {
