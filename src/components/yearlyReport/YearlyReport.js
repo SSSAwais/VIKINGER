@@ -23,9 +23,9 @@ const YearlyReport = () => {
         data: [50, 65, 50, 65, 55, 50, 60, 55, 50, 55, 60],
         fill: false,
         borderColor: "#00d2e1",
-        borderWidth: 2,
+        borderWidth: 1,
         pointBackgroundColor: "rgba(75,192,192,1)",
-        pointRadius: 5,
+        pointRadius: 4,
       },
       {
         // label: "Line 2",
@@ -33,9 +33,9 @@ const YearlyReport = () => {
 
         fill: false,
         borderColor: "#4595fa",
-        borderWidth: 2,
+        borderWidth: 1,
         pointBackgroundColor: "#4595fa",
-        pointRadius: 5,
+        pointRadius: 4,
       },
     ],
   };

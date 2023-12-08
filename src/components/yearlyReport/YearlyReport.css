@@ -44,7 +44,7 @@
 }
 @media screen and (max-width: 460px) {
   .yearly_report_wrapper canvas {
-    height: 200px !important;
+    /* height: 200px !important; */
     /* width: 100% !important; */
   }
 }
