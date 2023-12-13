@@ -54,7 +54,7 @@ import YearlyReport from "@/components/yearlyReport/YearlyReport";
 import RatioCircle from "@/components/ratio/Ratio";
 import RationDetails from "@/components/ratioDetail/RationDetails";
 import popularTrophy from "../../assets/images/populartorphy.svg";
-import newProfile from "../../assets/images/newProfile2.png";
+import newProfile from "../../assets/images/newprofile2.png";
 import user from "../../assets/images/user3333.jpeg";
 import max from "../../assets/images/maxx.jpg";
 import sidebarimg from "../../assets/images/newsidebarImg.png";
