@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./FrindsActivity.css";
 import user1 from "../../assets/images/user1.png";
 import AbsFriendsActivityList from "./absFriendActivity/AbsFriendsActivityList";
+import user from "../../assets/images/user.png";
 const FriendActivity = () => {
   const [freindsActData, setFriendsActData] = useState([
     {
@@ -14,6 +15,8 @@ const FriendActivity = () => {
       replies: 223,
       value: 89,
       percent__: 89,
+      number: 10,
+      userImg: user,
     },
     {
       image: user1,
@@ -25,6 +28,8 @@ const FriendActivity = () => {
       replies: 126,
       value: 74,
       percent__: 74,
+      number: 10,
+      userImg: user,
     },
     {
       image: user1,
@@ -36,6 +41,8 @@ const FriendActivity = () => {
       replies: 91,
       value: 53,
       percent__: 53,
+      number: 10,
+      userImg: user,
     },
     {
       image: user1,
@@ -47,6 +54,8 @@ const FriendActivity = () => {
       replies: 64,
       value: 49,
       percent__: 49,
+      number: 10,
+      userImg: user,
     },
     {
       image: user1,
@@ -58,6 +67,8 @@ const FriendActivity = () => {
       replies: 22,
       value: 21,
       percent__: 21,
+      number: 10,
+      userImg: user,
     },
   ]);
   return (
@@ -92,6 +103,8 @@ const FriendActivity = () => {
                   replies={e.replies}
                   value={e.value}
                   percent__={e.percent__}
+                  userImg={e.userImg}
+                  number={e.number}
                 />
               );
             })}

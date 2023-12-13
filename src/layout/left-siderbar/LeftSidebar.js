@@ -14,6 +14,8 @@ import icon7 from "../../assets/images/sidebar7.svg";
 import icon8 from "../../assets/images/sidebar8.svg";
 import icon9 from "../../assets/images/sidebar9.svg";
 import icon10 from "../../assets/images/sidebar10.svg";
+import sidebarimg from "../../assets/images/newsidebarImg.png";
+import user from "../../assets/images/user.png";
 import { useRouter, usePathname } from "next/navigation";
 const LeftSidebar = ({ isSidebarOpned, _handleClose }) => {
   const pathname = usePathname();
@@ -38,7 +40,17 @@ const LeftSidebar = ({ isSidebarOpned, _handleClose }) => {
     <>
       <aside className="left_side_bar_ web_version_sidebar">
         <div className="profile_image">
-          <Image src={profile} alt="" />
+          <div className="right_sidebar_content position-relative p-0">
+            <Image src={sidebarimg} alt="" className="hexa_frame" />
+            <span className="greeen"></span>
+
+            <Image src={user} alt="" className="userSidebarImg" />
+
+            <div className="number_sidebar">
+              <p>16</p>
+            </div>
+          </div>
+          {/* <Image src={profile} alt="" /> */}
         </div>
         <div className="menu_items">
           <nav>

@@ -1,6 +1,7 @@
 import React from "react";
 import "./TopReactors.css";
 import Image from "next/image";
+import cardhexa from "../../assets/images/card_one.png";
 const TopReactors = (props) => {
   const {
     reactor,
@@ -9,6 +10,8 @@ const TopReactors = (props) => {
     totalreactions,
     reactionname,
     username,
+    userImg,
+    number,
   } = props;
   return (
     <>
@@ -19,7 +22,16 @@ const TopReactors = (props) => {
         </div>
         <div className="reactor_detail text-center">
           <div className="image_section_reactor">
-            <Image src={useprofile} alt="" />
+            <div className="right_sidebar_content_2 position-relative">
+              <Image src={cardhexa} alt="" className="hexa_frame2" />
+
+              <Image src={userImg} alt="" className="userSidebarImg_ hexaimg" />
+
+              <div className="number_sidebar_ onlyyy">
+                <p>{number}</p>
+              </div>
+            </div>
+            {/* <Image src={useprofile} alt="" /> */}
           </div>
           <h5 className="reactor_total_reaction">{totalreactions}</h5>
           <p className="reactor_reaction">{reactionname}</p>

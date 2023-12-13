@@ -599,7 +599,75 @@
   margin-bottom: 0px;
   color: #3d405c;
 }
+.profile_iamge {
+  position: relative;
+  max-width: 100px;
+  height: 110px;
+  margin: auto;
+}
+.user_icons_here {
+  width: 100px;
+  height: 110px;
+  position: absolute;
+  z-index: 11111;
+  overflow: hidden;
+  /* right: 99px; */
+
+  top: -10px;
+}
+.userLogo {
+  width: 86px;
+  height: 88px;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 50%;
+  padding-top: 6px;
+  padding-left: 8px;
+  /* margin-top: 8px; */
+  margin-left: 3px;
+}
+.number_e {
+  position: absolute;
+  right: 7px;
+  bottom: 23px;
+  z-index: 11111;
+}
+.number_e p {
+  font-family: "Rajdhani", sans-serif;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.number_sidebar {
+  position: absolute;
+  right: 1px;
+  bottom: -2px;
+  z-index: 4;
+}
+.number_sidebar p {
+  margin-bottom: 0px;
+  font-size: 0.625rem;
+  color: white;
+  font-weight: 700;
+}
+.userSidebarImg {
+  width: 34px;
+  height: 34px;
+  border-radius: 42%;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+@media screen and (max-width: 1480px) {
+  /* .number_e {
+    right: 89px;
+    bottom: 1px;
+  } */
+}
 @media screen and (max-width: 1360px) {
+  /* .number_e {
+    right: 86px;
+  } */
   .profilecard_width {
     width: 33% !important;
     margin-bottom: 10px;
@@ -615,6 +683,9 @@
   }
 }
 @media screen and (max-width: 1120px) {
+  /* .number_e {
+    right: 121px;
+  } */
   .profilecard_width {
     width: 50% !important;
     margin-bottom: 10px;

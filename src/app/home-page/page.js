@@ -54,6 +54,11 @@ import YearlyReport from "@/components/yearlyReport/YearlyReport";
 import RatioCircle from "@/components/ratio/Ratio";
 import RationDetails from "@/components/ratioDetail/RationDetails";
 import popularTrophy from "../../assets/images/populartorphy.svg";
+import newProfile from "../../assets/images/newProfile2.png";
+import user from "../../assets/images/user3333.jpeg";
+import max from "../../assets/images/maxx.jpg";
+import sidebarimg from "../../assets/images/newsidebarImg.png";
+import user01 from "../../assets/images/user.png";
 const HomePage = () => {
   const [profileData, setProfileData] = useState([
     {
@@ -93,6 +98,8 @@ const HomePage = () => {
       hightlight: "status update",
       time: "2 minutes ago",
       emoji: commenting,
+      number: 14,
+      userImg: max,
     },
     {
       name: "Sarah Diamond ",
@@ -101,6 +108,8 @@ const HomePage = () => {
       hightlight: "photo",
       time: "31 minutes ago",
       emoji: liking,
+      number: 14,
+      userImg: max,
     },
     {
       name: "Destroy Dex ",
@@ -109,6 +118,8 @@ const HomePage = () => {
       hightlight: "photo",
       time: "31 minutes ago",
       emoji: commenting,
+      number: 14,
+      userImg: max,
     },
     {
       name: "Nick Grissom ",
@@ -117,6 +128,8 @@ const HomePage = () => {
       hightlight: "status update",
       time: "31 minutes ago",
       emoji: share,
+      number: 14,
+      userImg: max,
     },
     {
       name: "Nick Grissom ",
@@ -125,6 +138,8 @@ const HomePage = () => {
       hightlight: "status update",
       time: "2 minutes ago",
       emoji: commenting,
+      number: 14,
+      userImg: max,
     },
     {
       name: "Sarah Diamond ",
@@ -133,6 +148,8 @@ const HomePage = () => {
       hightlight: "photo",
       time: "31 minutes ago",
       emoji: liking,
+      number: 14,
+      userImg: max,
     },
   ]);
   const [reactor, setReactor] = useState([
@@ -143,6 +160,8 @@ const HomePage = () => {
       totalreactions: "94",
       reactionname: "Reactions",
       username: "DESTROY DEX",
+      number: 10,
+      userImg: user,
     },
     {
       reactor: "Reactor",
@@ -151,6 +170,8 @@ const HomePage = () => {
       totalreactions: "1.569",
       reactionname: "Reactions",
       username: "NICK GRISSOM",
+      number: 10,
+      userImg: user,
     },
     {
       reactor: "Commenter",
@@ -159,6 +180,8 @@ const HomePage = () => {
       totalreactions: "47",
       reactionname: "Comments",
       username: "NEKO BEBOP",
+      number: 10,
+      userImg: user,
     },
     {
       reactor: "Commenter",
@@ -167,6 +190,8 @@ const HomePage = () => {
       totalreactions: "803",
       reactionname: "Comments",
       username: "DESTROY DEX",
+      number: 10,
+      userImg: user,
     },
   ]);
   const [gamificationData, setGamificationData] = useState([
@@ -236,8 +261,22 @@ const HomePage = () => {
                   <p>Marina valentine</p>
                 </div>
                 <div className={style.lower_content_profile}>
-                  <div className="profile_iamge">
-                    <Image src={profileImg} alt="" />
+                  <div className={style.profile_iamge}>
+                    {/* this is hexagon border start here*/}
+                    <Image
+                      src={newProfile}
+                      alt=""
+                      className={style.user_icons_here}
+                    />
+                    {/* this is hexagon border end here*/}
+                    {/* user image area start here */}
+                    <Image src={user} alt="" className={style.userLogo} />
+                    {/* user image area end here here */}
+                    {/* dynamic number can put here */}
+                    <div className={style.number_e}>
+                      <p>16</p>
+                    </div>
+                    {/* dynamic number can end here */}
                   </div>
                 </div>
                 <div className={style.main_prfoile_gretting}>
@@ -297,6 +336,8 @@ const HomePage = () => {
                             hightlight={e.hightlight}
                             time={e.time}
                             emoji={e.emoji}
+                            number={e.number}
+                            userImg={e.userImg}
                           />
                         );
                       })}
@@ -385,6 +426,8 @@ const HomePage = () => {
                     totalreactions={e.totalreactions}
                     reactionname={e.reactionname}
                     username={e.username}
+                    number={e.number}
+                    userImg={e.userImg}
                   />
                 </div>
               );
@@ -403,8 +446,21 @@ const HomePage = () => {
                 </div>
                 <div className={style.popular_top}>
                   <div className="d-flex align-items-center">
-                    <Image src={miniuserprofile} alt="" />
-                    <div className={style.name_timeeee}>
+                    <div className="right_sidebar_content position-relative p-0">
+                      <Image src={sidebarimg} alt="" className="hexa_frame" />
+
+                      <Image
+                        src={user01}
+                        alt=""
+                        className={style.userSidebarImg}
+                      />
+
+                      <div className={style.number_sidebar}>
+                        <p>16</p>
+                      </div>
+                    </div>
+                    {/* <Image src={miniuserprofile} alt="" /> */}
+                    <div className={`${style.name_timeeee} pl-2`}>
                       <h4 className="mb-0">Marina Valentine</h4>
                       <p className="mb-0">17 hours ago</p>
                     </div>
